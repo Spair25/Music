@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+header{
+    color:white;
+      background-image: linear-gradient(green,black);
+    padding: 5px;
+    margin: 5px;
+    display: block;
+}
+main{
+    flex-wrap: wrap;
+    background-image: linear-gradient(green,black,green,black,green);
+}
+.cooking{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 1200px;
+}
+.e{
+position:relative;
+    margin: 1px;
+    }
+    iframe{
+        border: double blue;
+
+    }
+    iframe:hover{
+        height: 270px;
+        width: 370px;
+    }
+   header color{
+          background-image: linear-gradient(lightblue,white);
+    }
